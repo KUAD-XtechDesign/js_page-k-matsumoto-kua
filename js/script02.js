@@ -48,5 +48,11 @@ $(function(){
   })
 
 
+  $("#red").on("click",function(){
+    $("#box2").css({backgroundColor:'red'})
+    $("#btn03").toggleClass("active")
+  } )
+
+
 
 })
